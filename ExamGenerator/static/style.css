@@ -1,0 +1,30 @@
+:root{
+    --primary-color:#5B699C;
+    --secondary-color: #ECD7EC;
+    --tertiary-color: #D1E5F9;
+    --accent-color: #1E4050;
+
+    --background-color: #EFF2FE;
+    --green-color: #2D483F;
+    --green-light: #ADFFE4;
+    --red-color: #E72636;
+    --red-light: #ADFFE4;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: var(--background-color);
+}
+
+h1 {
+    color: var(--primary-color);
+}
+
+h2 {
+    color: var(--accent-color);
+}
