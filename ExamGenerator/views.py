@@ -9,3 +9,7 @@ def index():
 @views.route('/score')
 def score():
     return render_template('score.html')
+
+@views.route('/download')
+def download():
+    return render_template('download.html')

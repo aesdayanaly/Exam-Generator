@@ -18,16 +18,19 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: var(--background-color);
 }
 
 h1 {
     color: var(--primary-color);
 }
 
+
+
 .score-container {
     width: 100vw;
     height: 100vh;
+    background-image: url('images/score_bg.svg');
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -51,7 +54,7 @@ h1 {
 }
 
 .score-buttons button {
-    padding: 1em 2em;
+    padding: 1.2em 2.5em;
     margin: 1.5em 1em;
     font-size: 1em;
     font-weight: 600;
@@ -61,11 +64,53 @@ h1 {
 }
 
 .btn-primary {
-    color: var(--background-color);
+    color: white;
     background-color: var(--primary-color);
 }
 
+
 .btn-secondary {
     color: var(--primary-color);
-    background-color: var(--background-color);
+    background-color: white;
+}
+
+
+.download-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--secondary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.download-main {
+    width: 65vw;
+    height: 70vh;
+    background-image: radial-gradient(circle, var(--secondary-color) 10%, white, white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-radius: 1em;
+    box-shadow: 0 0 10px -5px rgba(0, 0, 0, 0.5);
+}
+
+.download-text p {
+    display: block;
+    padding: 0.8em;
+    margin: 0 auto;
+    width: 60%;
+}
+
+.download-buttons button {
+    display: block;
+    padding: 1.5em;
+    margin: 2em auto 0 auto;
+    width: 45%;
+    font-size: 1em;
+    font-weight: 600;
+    border-radius: 1em;
+    border: 2px solid var(--primary-color);
+    box-shadow: 0 4px 10px -5px rgba(0, 0, 0, 0.5);
 }
