@@ -26,6 +26,37 @@ h1 {
     color: var(--primary-color);
 }
 
+.btn {
+    padding: 1em;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    border-radius: 1em;
+    border: 2px solid var(--primary-color);
+    box-shadow: 0 4px 10px -5px rgba(0, 0, 0, 0.5);
+    transition: ease 0.8s;
+}
+
+.btn-primary {
+    color: white;
+    background-color: var(--primary-color);
+}
+
+.btn-primary:hover {
+    filter: brightness(120%);
+}
+
+.btn-secondary {
+    color: var(--primary-color);
+    background-color: white;
+}
+
+.btn-secondary:hover {
+    background-color: var(--background-color);
+}
+
+
+
 
 
 .score-container {
@@ -58,23 +89,9 @@ h1 {
 .score-buttons button {
     padding: 1.2em 2.5em;
     margin: 1.5em 1em;
-    font-size: 1em;
-    font-weight: 600;
-    border-radius: 1em;
-    border: 2px solid var(--primary-color);
-    box-shadow: 0 4px 10px -5px rgba(0, 0, 0, 0.5);
-}
-
-.btn-primary {
-    color: white;
-    background-color: var(--primary-color);
 }
 
 
-.btn-secondary {
-    color: var(--primary-color);
-    background-color: white;
-}
 
 
 .download-container {
@@ -110,9 +127,4 @@ h1 {
     padding: 1.5em;
     margin: 2em auto 0 auto;
     width: 45%;
-    font-size: 1em;
-    font-weight: 600;
-    border-radius: 1em;
-    border: 2px solid var(--primary-color);
-    box-shadow: 0 4px 10px -5px rgba(0, 0, 0, 0.5);
 }
